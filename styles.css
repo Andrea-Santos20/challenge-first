@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&display=swap');
 
 * {
     margin: 0;
@@ -6,52 +6,99 @@
     box-sizing: border-box;
 }
 
+body{
+    background: linear-gradient(#2e7f90,#448a61, #298876, #2e7f90); 
+}
+
 header {
     margin: 24px;
 }
 
-
-h1 {
-    font-family: "Inter";
-    color: #0A3871;
-    margin: 24px;
-}
-
 textarea {
-    margin: 24px 24px auto 24px;
+    margin: 24px 24px 0 24px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: "Inter";
+    font-size: 1.5rem;
+    color: #0A3871;
+   
 }
 
-p {
+.information_textarea {
     font-family: "Inter";
     font-size: 12px;
-    color: #495057;
-    margin: 24px;
+    color: #fff;
+    margin: 0 24px;
 }
 
 button .btn {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 300px;   
-    gap: 8px;
+    width: 100%;
+    gap: 5%;
+    margin: 15px;
+    justify-content: space-evenly;
 }
 
-.cripto {
+.cripto, .descripto {
     width: 130px;
-    height: 50px;
-    padding: 24px;
+    height: 50px;   
     margin: 24px;
     display: flex;
     justify-content: center;
     border-radius: 15px;
+    font-size: 1rem;
+    font-weight: bold;
     align-items: center;
-    text-align: center;
-    background-color: #0A3871;
-    color: #fff;
-    font-size: 16px;
-
+    text-align: center;   
 }
 
-.descripto {
+.cripto {
+    background-color: #0A3871;
+    color: #fff;
+}
+
+.cripto:hover {
+    background-color: #79febf;
+    color: #fff;
+    transform: scale(1.2); 
+}
+
+.descripto {   
+    background-color:#D8DFE8;
+    color:#0A3871;   
+}
+
+.descripto:hover {
+    background-color: #79febf;
+    color: #fff;
+    transform: scale(1.2); 
+}
+
+
+.man_lupa {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 25px 0px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    text-align: center;
+    align-items: center;
+    height: 550px;
+}
+
+.message {
+    font-family: "Inter";
+    font-size: 12px;
+    color: #fff;
+    margin: 0 24px;
+}
+
+.btn_copy {
     width: 130px;
     height: 50px;
     padding: 24px;
@@ -64,6 +111,31 @@ button .btn {
     text-align: center;
     background-color:#D8DFE8;
     color:#0A3871;
-    font-size: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn_copy:hover {
+    background-color: #79febf;
+    transform: scale(1.2); 
+
+}
+
+.baseboard{
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 45px; 
+    text-align: center;
+
+    background-color: #0A3871;    
+}
+
+.baseboard p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Krona';
+    font-weight: bold;
+    padding: 1rem 1rem 0 1rem;
 
 }

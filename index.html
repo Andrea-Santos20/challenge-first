@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Descodificador</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/Frame6.png" alt="" />
+    </header>
+
+    <main>
+      <section>
+        <div class="information_textarea"> 
+        <textarea name="" id="" cols="40" rows="10">
+          Digite seu texto aqui
+        </textarea>
+                 
+          <p class="information_textarea"> &sext; Apenas letras minúsculas e sem acento.</p>    
+        </div>
+      </section>
+
+      <div class="btn">
+        <button class="cripto" onclick="cripto()">Criptografar</button>
+        <button class="descripto" onclick="descripto()">Descriptografar</button>
+      </div>
+
+      <div class="view_text">
+        <img
+          class="man_lupa"
+          src="assets/homemLupa.svg"
+          alt="Figura de um homem com uma lupa."
+        />
+
+        <p class="message">Nenhuma mensagem encontrada.</p>       
+        <button class="btn_copy" onclick="copyMessage()">Copiar</button>
+      </div>
+    </main>
+    <footer class="baseboard">
+      <p>By Dea Dev &hearts;</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
