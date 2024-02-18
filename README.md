@@ -1,6 +1,6 @@
 ## Bootcamp ONE - Alura + Oracle
 #### Desafio para fixação de conhecimentos aprendidos nas aulas de programação para iniciantes.
-#### Foi proposto realizarmos uma página para cripografar e descriptografar os textos inseridos.
+#### Foi proposto realizarmos uma página para decodificar os textos inseridos.
 
 
 ![image](https://github.com/Andrea-Santos20/challenge-first/assets/71380725/06a6ac12-e091-4f2b-9de1-6d6447d26f85)
