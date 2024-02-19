@@ -5,49 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Descodificador</title>
+    <title>Decodificador</title>
   </head>
+
   <body>
-    <header>
+    <header class="logo">
       <img src="assets/Frame6.png" alt="" />
     </header>
 
-    <main >
+    <main>
       <section class="container">
-        <div class="container_information_textarea"> 
-
+        <div class="container_information_textarea">
           <h1>Digite seu texto aqui:</h1>
 
-          <textarea class="container_textarea" name="" id="" cols="40" rows="10" placeholder="Digite seu texto aqui."></textarea>
-                 
-          <p class="information_guide"> &sext; Apenas letras minúsculas e sem acento.</p>    
-        </div>   
-        
-      <section class="view _text">
-        <img
-          class="text_message"
-          src="assets/homemLupa.svg"
-          alt="Figura de um homem com uma lupa."
+          <textarea
+            class="container_textarea"
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Digite seu texto aqui."
+          ></textarea>
+
+          <p class="information_guide">
+            &sext; Apenas letras minúsculas e sem acento.
+          </p>
+        </div>
+      
+        <div class="btn_cripto_descripto">
+          <button class="cripto" onclick="cripto()">Criptografar</button>
+          <button class="descripto" onclick="descripto()">Descriptografar</button>
+         
+        </div>
+
+        <section class="view _text">
+          <img
+            class="text_message"
+            src="assets/homemLupa.svg"
+            alt="Figura de um homem com uma lupa."
           />
 
-          <textarea id="response_textarea" name="response_text" id="response" cols="30" rows="10" placeholder=" Nenhuma mensagem encontrada."></textarea>
-                                 
-      </section>   
-
-    </section>    
-    <div class="btn_cripto_descripto">
-
-      <button class="cripto" onclick="cripto()">Criptografar</button>
-      <button class="descripto" onclick="descripto()">Descriptografar</button>
+          <textarea
+            id="response_textarea"
+            name="response_text"
+            id="response"
+            cols="30"
+            rows="10"
+            placeholder=" Nenhuma mensagem encontrada."
+          ></textarea>
+          
+          <button class="btn_copy" onclick="copyMessage()">Copiar</button>
+        </section>
+      </section>
       
-      <button class="btn_copy" onclick="copyMessage()">Copiar</button>    
-
-    </div>
     </main>
 
     <footer class="baseboard">
       <p>One T6 - By Dea Dev &hearts;</p>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
